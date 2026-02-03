@@ -16,6 +16,27 @@ body{
      min-height: 100vh; /*mínimo 100% altura da tela*/
 }
 
+.footer-minimal {
+  width: 100%;
+  padding: 20px 0;
+  background: transparent; /* sem cor por padrão */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 15px;  /* ← pode ajustar */
+  color: #333;      /* ← pode ajustar a cor */
+}
+
+.footer-logo {
+  width: 200px;     /* ← pode ajustar o tamanho */
+  height: auto;
+}
+
 .cebecalho{
 
      background-color: white; /*cor do fundo*/
