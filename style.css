@@ -1,8 +1,8 @@
 /*estrutura principal*/
 html, body{
-     height: 100%;
      margin: 0;
      padding: 0;
+     box-sizing: border-box;
 }
 
 /*estilos gerais do corpo (body)*/
@@ -11,8 +11,6 @@ body{
      line-height: 1.6;
      color: #333;
      background-color: #f4f4f4;
-     display: flex; /*flexbox*/
-     flex-direction: column; /*organiza em coluna*/
      min-height: 100vh; /*mínimo 100% altura da tela*/
 }
 
